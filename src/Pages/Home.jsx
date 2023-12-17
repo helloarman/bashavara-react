@@ -1,5 +1,8 @@
+import About from "../Components/About";
 import Category from "../Components/Category";
+import { Contact } from "../Components/Contact";
 import Header from "../Components/Header";
+import { PropertyListing } from "../Components/PropertyListing";
 import Master from "../Layouts/Master";
 
 function Home() {
@@ -8,6 +11,9 @@ function Home() {
       <Master>
         <Header />
         <Category />
+        <About />
+        <PropertyListing />
+        <Contact />
       </Master>
     </div>
   );

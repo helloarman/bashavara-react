@@ -1,3 +1,4 @@
+import Category from "../Components/Category";
 import Header from "../Components/Header";
 import Master from "../Layouts/Master";
 
@@ -6,6 +7,7 @@ function Home() {
     <div>
       <Master>
         <Header />
+        <Category />
       </Master>
     </div>
   );

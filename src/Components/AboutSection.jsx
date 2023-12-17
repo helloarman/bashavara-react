@@ -1,4 +1,4 @@
-const About = () => {
+const AboutSection = () => {
   return (
     <div>
       <div className="container-xxl py-5">
@@ -42,4 +42,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default AboutSection;

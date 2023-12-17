@@ -1,4 +1,4 @@
-import About from "../Components/About";
+import AboutSection from "../Components/AboutSection";
 import Category from "../Components/Category";
 import { Contact } from "../Components/Contact";
 import Header from "../Components/Header";
@@ -11,7 +11,7 @@ function Home() {
       <Master>
         <Header />
         <Category />
-        <About />
+        <AboutSection />
         <PropertyListing />
         <Contact />
       </Master>

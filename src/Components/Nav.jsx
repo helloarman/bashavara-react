@@ -17,7 +17,7 @@ function Nav() {
                 style={{ width: 30, height: 30 }}
               />
             </div>
-            <h1 className="m-0 text-primary">Makaan</h1>
+            <h1 className="m-0 text-primary">RentHome</h1>
           </a>
           <button
             type="button"
@@ -35,10 +35,10 @@ function Nav() {
               <Link to="/about" className="nav-item nav-link">
                 About
               </Link>
-              <Link to="/about" className="nav-item nav-link">
+              <Link to="/properties" className="nav-item nav-link">
                 Properties
               </Link>
-              <Link to="/about" className="nav-item nav-link">
+              <Link to="/contact-us" className="nav-item nav-link">
                 Contact
               </Link>
             </div>

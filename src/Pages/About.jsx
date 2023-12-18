@@ -4,10 +4,25 @@ import Header from "../Components/Header";
 import Master from "../Layouts/Master";
 
 function About() {
+  let title = "About";
+  let breadcrumb = [
+    {
+      url: "",
+      label: "Home",
+    },
+    {
+      url: "",
+      label: "Page",
+    },
+    {
+      url: "",
+      label: "About",
+    },
+  ];
   return (
     <div>
       <Master>
-        <Header />
+        <Header title={title} breadcrumb={breadcrumb} />
         <AboutSection />
         <Contact />
       </Master>

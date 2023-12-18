@@ -6,10 +6,13 @@ import { PropertyListing } from "../Components/PropertyListing";
 import Master from "../Layouts/Master";
 
 function Home() {
+  let title = "Find A Perfect Home To Live With Your Family";
+  let breadcrumb = [];
+
   return (
     <div>
       <Master>
-        <Header />
+        <Header title={title} breadcrumb={breadcrumb} />
         <Category />
         <AboutSection />
         <PropertyListing />

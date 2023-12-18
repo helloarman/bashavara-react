@@ -42,7 +42,10 @@ function Nav() {
                 Contact
               </Link>
             </div>
-            <a href="#" className="btn btn-primary px-3 d-none d-lg-flex">
+            <a
+              href="/post-property"
+              className="btn btn-primary px-3 d-none d-lg-flex"
+            >
               Add Property
             </a>
           </div>
